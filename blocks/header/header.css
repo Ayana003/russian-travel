@@ -1,0 +1,8 @@
+.header {
+    outline: solid 1px red;
+    width: calc(100%-96px);
+    padding: 28 48 56 48;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-arounf;
+}

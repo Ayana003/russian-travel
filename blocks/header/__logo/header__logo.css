@@ -1,0 +1,6 @@
+.header__logo {
+    background-image: url(../../../images/header-logo.svg);
+    max-width: 176px;
+    min-height: 52px;
+    outline: solid 2px red;
+}
