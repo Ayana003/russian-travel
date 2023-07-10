@@ -8,20 +8,27 @@
     font-weight: 900;
     line-height: 1.04;
     max-width: 720px;
-    /*max-width: fit-content*/;
     min-height: 200px;
 }
 
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 675px) {
+    .lead__title {
+        font-size: 70px;
+        max-width: 500x;
+        line-height: 1.1;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 530px) {
+    .lead__title {
+        font-size: 45px;
 
+    }
+}
 @media screen and (max-width: 320px) {
     .lead__title {
+        max-width: 288px;
+        min-height: 88px;
         font-size: 40px;
         line-height: 1.1;
     }
