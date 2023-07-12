@@ -27,7 +27,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 606px) {
     .place {
         grid-auto-columns: repeat(1, minmax(min-content,max-content));
         grid-template-rows: repeat(4, minmax(min-content,max-content));
@@ -36,6 +36,13 @@
         "website"
         "image"
         "paragraphs";
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 606px) and (max-width: 320px) {
+    .place {
         gap: 32px;
     }
 }
