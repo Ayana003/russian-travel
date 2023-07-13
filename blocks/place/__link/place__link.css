@@ -8,7 +8,7 @@
     text-decoration-line: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .place__link {
         margin-left: 16px;
     }
