@@ -2,13 +2,12 @@
     margin: 0 auto;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
     line-height: 1.04;
     max-width: 720px;
-    min-height: 200px;
 }
 
 @media screen and (max-width: 675px) {
@@ -22,14 +21,11 @@
 @media screen and (max-width: 530px) {
     .lead__title {
         font-size: 45px;
-
     }
 }
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
-        min-height: 88px;
         font-size: 40px;
-        line-height: 1.1;
     }
 }

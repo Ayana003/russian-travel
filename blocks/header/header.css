@@ -1,6 +1,5 @@
 .header {
     max-width: calc(100% - 96px);
-    min-height: 52px;
     margin: 0 auto;
     padding-top: 28px;
     display: flex;
@@ -8,18 +7,14 @@
     align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
-
 @media screen and (max-width: 768px) {
     .header {
-        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
     }
 }
 @media screen and (max-width: 320px) {
     .header {
         padding-top: 16px;
-        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
     }
 }
